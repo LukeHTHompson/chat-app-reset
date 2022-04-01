@@ -29,7 +29,9 @@ This is a basic chat app. Currently users can customize their chat name, colors,
       NOTE: In Test mode all users will be able to upload images to firebase for your app for the next 30 days. You can change the date in the Rules section of storage in order to extend or reduce this timeframe. You can also put intol this rule user authentication logic to prevent un-authorized users from uploading images (user authentication logic for image upload is not currently supported in this app by default).
 12. Return to Firebase Console. Click 'Authentication' on the left side of Firebase Console, then 'Set-Up Sign in Method'. Choose 'Anonymous', toggle it to be 'enabled', then 'Save'.
 13. Your Firebase Setup is now complete.
-
+14. Back in your Command Line Interface navigate to the folder where your project has been isntalled and run this command:
+      - expo start
+15. Now your application is up an running, use expo to view it!
 
 # Example Package.json:
 ```
